@@ -18,7 +18,7 @@ public class KeycloakSecurityConfig  extends KeycloakWebSecurityConfigurerAdapte
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         // assign check to  authentication to keyloak
-        auth.authenticationProvider( keycloakAuthenticationProvider());
+          auth.authenticationProvider( keycloakAuthenticationProvider());
 
     }
 
